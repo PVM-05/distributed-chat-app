@@ -26,5 +26,5 @@ app.listen(port, () => {
 
 
 mongoose.connect(uri)
-  .then(() => console.log("MongoDB connection established"))
-  .catch(err => console.error("MongoDB connection failed:", err.message));
+  .then(() => console.log("Ket noi thanh cong mongodb"))
+  .catch(err => console.error("Ket noi mongodb that bai:", err.message));
